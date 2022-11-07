@@ -1,1 +1,133 @@
-Hello world
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Page title shown in window title</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+    
+    <header>
+        <h1>Välkommen till restaurang hamburgaren</h1>
+        
+        
+    </header>
+   
+    <main>
+       <section>
+
+        <h2>Välj hamburgare</h2>
+
+ <div  style="display:  inline-block;">
+
+        Det är här du väljer vilken hamburgare du vill ha.
+        <br> Du måste välja åtminstone en;)
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>The nice burger</h3>
+        <img src="http://cdn2.cdnme.se/cdn/7-1/2787205/images/2011/burgare500_130969126_166124290.jpg" alt="Span" title="Another in-line element" style="height: 300 px; width: 300px">
+       
+            <ul>
+               <li>Jättemycket laktos</li>
+               <li>Supermycket gluten</li>
+
+            </ul>
+        </div>
+
+<div  style="display:  inline-block;">
+  
+
+        <h3>The pretty nice burger</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWu9S0bDkabpX2x9KU8S7awK8rNQZqJRu0jfit90cKv7GRrTxhsrRwMkwbXuvAgZUeLQk&usqp=CAU" alt="Span" title="Another in-line element" style="height: 240 px; width: 240px">
+       
+            <ul>
+               <li>Orimliga mängder laktos</li>
+               <li>Mer gluten än i en limpa </li>
+
+            </ul>
+        </div>
+ <div  style="display:  inline-block;">
+    
+            <h3>BBB</h3>
+            <img src="http://2.bp.blogspot.com/-Y7zvls-RRzg/T1kegrRED8I/AAAAAAAAAlw/wA7LLk-_Hfc/s1600/hemburgare.JPG" style= "height: 210 px;width: 210px">
+           
+                <ul>
+                   <li>VARNING ALKOHOL!</li>
+                   <li>Glutenfri </li>
+                   <li>Laktosfri</li>
+    
+                </ul>
+</div>
+
+
+    </section>
+       <section id="contact"> 
+        <h1> Kundinformation</h1>
+        Här står det lite information till dig som kund
+        <h2> Leveransinformation</h2>
+        
+        <form>
+            <p>
+                <label for="firstname">Full name</label><br>
+                <input type="text" id="first name" name="fn" required="required" placeholder="För- och efternamn">
+            </p>
+            
+            <p>
+                <label for="mail">Mailadress</label><br>
+                <input type="email" id="mail" name="em" required="required" placeholder="E-mail address">
+            </p>
+
+            <p>
+                <label for="">Gatudress</label><br>
+                <input type="text" id="gatuadress" name="ga" required="required" placeholder="Gatuadress">
+            </p>
+
+            <p>
+                <label for="Husnummer">Husnummer</label><br>
+                <input type="number" id="Husnummer" name="hn" required="required" placeholder="Husnummer">
+            </p>
+
+            <p>
+                <label for="Betalningsinformation">Betalmedel</label><be>
+                <select id="Betalningsinformation" name="rcp">
+                    <option>kreditkort</option> 
+                    <option>faktura</option>
+                    <option selected="selected" >sedlar</option>
+                    <option>sten</option>
+                </select>
+             </p>
+        <fieldset>
+            <p>
+                <h4>Ange kön</h4>
+                <input type="radio" id="flicka" name="kön" value="flicka" checked="checked">
+                <label for="flicka">flicka</label><br>
+
+                
+                <input type="radio" id="pojke" name="kön" value="pojke" >
+                <label for="pojke">pojke</label><br>
+
+            
+                <input type="radio" id="vill ej uppge" name="kön" required="vill ej uppge">
+                <label for="vill ej uppge">vill ej uppge</label><br>
+                
+            </p>
+        </fieldset>
+
+    
+
+        </form>
+       </section>
+       <button type="submit">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mail-sealed-send.svg/1024px-Mail-sealed-send.svg.png"  style="width: 50px;">
+        Lägg order
+      </button>
+    </main>
+    <footer>
+        <hr>
+       &copy;Hannas hemsida!!! rör ej!
+    </footer>
+ </body>
+</html>
