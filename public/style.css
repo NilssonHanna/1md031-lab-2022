@@ -1,1 +1,96 @@
 /*empty*/
+
+.beskrivandetext{
+    font-size: 50px;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 300px 300px 300px;
+    background-color: #885400;
+    color: #e4b66c;
+
+}
+
+.box {
+    background-color: rgb(136, 100, 31);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+    width: 100%;
+    margin-left: 70px;
+    
+}
+
+
+#skärm {
+margin-top: 100px;
+margin-bottom: 100px;
+width: 100%;
+}
+
+#läggorder {
+margin-top: 20px;
+}
+
+#headline{
+    font-family: cursive;
+    margin-right: 155px;
+    margin-left: 2px;
+    position: absolute;
+    color: #885400;
+    padding: 250px 70px 75px 100px;
+    margin-top: -600px;
+    
+    
+}
+#headerbild {
+    opacity: 0.7;
+    width: 100%;
+    height:auto;
+    
+}
+.header{ height: 20;
+
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+
+ #meny {
+    font-weight: bold;
+    font-size: small;
+    background-color: #885400;
+    border:dashed;
+    border-color: white;
+    text-align: center;
+   
+    
+ }
+ 
+#leveransinformation {
+    background-color: #000000;
+    color:white;
+    border:dashed;
+    border-color: #885400;
+    text-indent: 50px;
+}
+ #laktos {
+    color: #ff5500;
+ }
+ #gluten {
+    color: #ff5500;
+ }
+
+ button:hover {
+    background-color: rgb(14, 111, 14);
+    cursor: pointer;
+    
+
+ }
+

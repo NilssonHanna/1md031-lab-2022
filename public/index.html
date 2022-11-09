@@ -2,69 +2,73 @@
 
 <!DOCTYPE HTML>
 <html lang="en">
-   <head>
+   <head >
+    <link rel="stylesheet" type="text/css" href="style.css">
        <title>Page title shown in window title</title>
        <meta charset="utf-8"/>
    </head>
-   <body>
+
+   
+   <body id="skärm">
     
-    <header>
-        <h1>Välkommen till restaurang hamburgaren</h1>
+    <header class="header">
         
-        
+       
+        <img  id="headerbild" 
+         src="https://i0.wp.com/post.psychcentral.com/wp-content/uploads/sites/4/2022/06/buddha-statue-outdoors-sky-china-1296x728-header-1024x575.jpg?w=1155&h=1528" width="1045">
+         <h1  id="headline"> Välkommen till The mindful burger</h1>
     </header>
    
     <main>
-       <section>
+       <section id="meny">
 
         <h2>Välj hamburgare</h2>
 
- <div  style="display:  inline-block;">
-
         Det är här du väljer vilken hamburgare du vill ha.
         <br> Du måste välja åtminstone en;)
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3>The nice burger</h3>
-        <img src="http://cdn2.cdnme.se/cdn/7-1/2787205/images/2011/burgare500_130969126_166124290.jpg" alt="Span" title="Another in-line element" style="height: 300 px; width: 300px">
+        
+        
+
+        <div class="wrapper">
+
+            <div class="box">
+                <h3>The "takes forever to eat" burger"</h3>
+                     <img src="https://idenyt-viivilla.imgix.net/sites/2/2021/09/hamburgare.jpg" alt="Span" style="height: 200 px; width: 300px;">
        
-            <ul>
-               <li>Jättemycket laktos</li>
-               <li>Supermycket gluten</li>
+                         <dl>
+                            <dd>Det tar lite tid att äta upp 25 burgare.<br>
+                             Ett jättebra sätt att vara närvarande i stunden! <dd>
+                                    <dt>Jättemycket<span id="laktos"> laktos</span></dt>
+                                    <dt>Supermycket <span id="gluten"> gluten </span></dt>
+                         <dl>
+             </div>
 
-            </ul>
-        </div>
+            <div class="box">
+                <h3>The Buddha burger</h3>
+                    <img src="https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2017/03/vegan-bao-buns-single-800x1200.jpg" alt="Span"  style="height: 200 px; width: 300px;">
+                        <dl>
+                            <dd> Förmodligen Buddhas favoritburgare</dd>
+                                <dt>Orimliga mängder <span id="laktos">laktos</span></dt>
+                                <dt>Mer <span id="gluten">gluten</span> än i en limpa </dt>
+                                <dt>Rachel rekomenderar</dt>
+                        <dl>
+            </div>
 
-<div  style="display:  inline-block;">
-  
-
-        <h3>The pretty nice burger</h3>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWu9S0bDkabpX2x9KU8S7awK8rNQZqJRu0jfit90cKv7GRrTxhsrRwMkwbXuvAgZUeLQk&usqp=CAU" alt="Span" title="Another in-line element" style="height: 240 px; width: 240px">
-       
-            <ul>
-               <li>Orimliga mängder laktos</li>
-               <li>Mer gluten än i en limpa </li>
-
-            </ul>
-        </div>
- <div  style="display:  inline-block;">
-    
-            <h3>BBB</h3>
-            <img src="http://2.bp.blogspot.com/-Y7zvls-RRzg/T1kegrRED8I/AAAAAAAAAlw/wA7LLk-_Hfc/s1600/hemburgare.JPG" style= "height: 210 px;width: 210px">
+            <div class="box">
+                <h3>The "do it yourself burger"</h3>
+                    <img src="https://i2.wp.com/completelydelicious.com/wp-content/uploads/2014/07/IMG_7994.jpg" alt="Span" style= "height: 400 px; width: 300px;">
            
-                <ul>
-                   <li>VARNING ALKOHOL!</li>
-                   <li>Glutenfri </li>
-                   <li>Laktosfri</li>
-    
-                </ul>
-</div>
-
+                        <dl>
+                            <dd>Gör det själv heltenkelt. Kul och meditativt</dd>
+                                <dt>Glutenfri om du vill</dt>
+                                <dt>laktosfri om du vill</dt>
+                                <dt>Linn rekomenderar</dt>
+                         <dl>   
+             </div>
+         </div>
 
     </section>
-       <section id="contact"> 
+       <section id="leveransinformation"> 
         <h1> Kundinformation</h1>
         Här står det lite information till dig som kund
         <h2> Leveransinformation</h2>
@@ -120,7 +124,7 @@
 
         </form>
        </section>
-       <button type="submit">
+       <button type="submit" id="läggorder">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mail-sealed-send.svg/1024px-Mail-sealed-send.svg.png"  style="width: 50px;">
         Lägg order
       </button>
@@ -130,4 +134,8 @@
        &copy;Hannas hemsida!!! rör ej!
     </footer>
  </body>
+
+
+ 
+
 </html>
