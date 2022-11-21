@@ -1,0 +1,33 @@
+
+
+
+[
+  {
+    "name": "the takes forever to eat burger",
+    "info":"Det tar lite tid att äta upp 25 burgare. Ett jättebra sätt att vara närvarande i stunden!",
+    "gluten": true,
+    "image": "https://idenyt-viivilla.imgix.net/sites/2/2021/09/hamburgare.jpg",
+    "laktos": true,
+    "burgerKcal": "10000030 kalorier"
+  },
+
+  {
+    "name": "The Buddha burger",
+    "info":"Förmodligen Buddhas favoritburgare.",
+    "laktos": false, 
+    "gluten": true,
+    "image":"https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2017/03/vegan-bao-buns-single-800x1200.jpg",
+    "burgerKcal": "8 kalorier"
+  },
+  {
+    "name": "The do it yourself burger",
+    "info":"Gör det själv heltenkelt. Kul och meditativt!",
+    "laktos":true, 
+    "gluten": false,
+    "image": "https://i2.wp.com/completelydelicious.com/wp-content/uploads/2014/07/IMG_7994.jpg",
+    "burgerKcal": "0 kalorier"
+    
+  }
+
+]
+
